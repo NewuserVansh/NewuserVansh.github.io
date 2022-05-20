@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Macondo&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="bootloader">
+        <h1 id="loading">Loading</h1>
+    </div>
+
+    <header>
+        <div id="xyz">
+            <img src="index.png" alt="CFI Logo" class="logo">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Awards</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+
+                    <hr>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <main>
+        <div id="loading">
+
+        </div>
+        <div style="font-size: 60px; font-family: 'Macondo', cursive; display: block; text-align: center; ">
+            <div id="webops"> WEBOPS <br> & <br></div>
+            <div id="blockchain">BLOCKCHAIN CLUB</div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="content">
+            <div onmouseover="change1()" onmouseout="hide1()">Mandakini</div>
+            <div onmouseover="change2()" onmouseout="hide2()">Sarayu</div>
+            <div onmouseover="change3()" onmouseout="hide3()">Bhadra</div>
+            <div onmouseover="change4()" onmouseout="hide4()">Bhramaputra</div>
+            <div onmouseover="change5()" onmouseout="hide5()">Sharavathi</div>
+            <div onmouseover="change6()" onmouseout="hide6()">Tunga</div>
+            <div onmouseover="change7()" onmouseout="hide7()">Tapti</div>
+            <div onmouseover="change8()" onmouseout="hide8()">Godavari</div>
+            <div onmouseover="change9()" onmouseout="hide9()">Saraswati</div>
+        </div>
+        <div id="box">
+            <div style="color: white;"><strong>Hover over me</strong></div>
+        </div>
+        <br>
+    </main>
+    <script>
+        function change1() {
+            const i = document.getElementById('box');
+            i.textContent = "Mandakini";
+            i.style.transition = "all 0.2s ease";
+        }
+        function hide1() {
+            const j = document.getElementById('box');
+            j.textContent = "Hover over me";
+            j.style.transition = "all 0.5s ease-out";
+        }
+        function change2() {
+            const i = document.getElementById('box');
+            i.textContent = "Sarayu";
+            i.style.transition = "all 0.2s ease";
+        }
+        function hide2() {
+            const j = document.getElementById('box');
+            j.textContent = "Hover over me";
+            j.style.transition = "all 0.5s ease-out";
+        }
+        function change3() {
+            const i = document.getElementById('box');
+            i.textContent = "Bhadra";
+            i.style.transition = "all 0.2s ease";
+        }
+        function hide3() {
+            const j = document.getElementById('box');
+            j.textContent = "Hover over me";
+            j.style.transition = "all 0.5s ease-out";
+        }
+        function change4() {
+            const i = document.getElementById('box');
+            i.textContent = "Bhramaputra";
+            i.style.transition = "all 0.2s ease";
+        }
+        function hide4() {
+            const j = document.getElementById('box');
+            j.textContent = "Hover over me";
+            j.style.transition = "all 0.5s ease-out";
+        }
+        function change5() {
+            const i = document.getElementById('box');
+            i.textContent = "Sharavathi";
+            i.style.transition = "all 0.2s ease";
+        }
+        function hide5() {
+            const j = document.getElementById('box');
+            j.textContent = "Hover over me";
+            j.style.transition = "all 0.5s ease-out";
+        }
+        function change6() {
+            const i = document.getElementById('box');
+            i.textContent = "Tunga";
+            i.style.transition = "all 0.2s ease";
+        }
+        function hide6() {
+            const j = document.getElementById('box');
+            j.textContent = "Hover over me";
+            j.style.transition = "all 0.5s ease-out";
+        }
+        function change7() {
+            const i = document.getElementById('box');
+            i.textContent = "Tapti";
+            i.style.transition = "all 0.2s ease";
+        }
+        function hide7() {
+            const j = document.getElementById('box');
+            j.textContent = "Hover over me";
+            j.style.transition = "all 0.5s ease-out";
+        }
+        function change8() {
+            const i = document.getElementById('box');
+            i.textContent = "Godavari";
+            i.style.transition = "all 0.2s ease";
+        }
+        function hide8() {
+            const j = document.getElementById('box');
+            j.textContent = "Hover over me";
+            j.style.transition = "all 0.5s ease-out";
+        }
+        function change9() {
+            const i = document.getElementById('box');
+            i.textContent = "Saraswati";
+            i.style.transition = "all 0.2s ease";
+        }
+        function hide9() {
+            const j = document.getElementById('box');
+            j.textContent = "Hover over me";
+            j.style.transition = "all 0.5s ease-out";
+        }
+        var loader = document.getElementById("bootloader");
+        window.addEventListener(setInterval(function (){ loader.style.display = "none" }, 2500))
+
+    </script>
+</body>
+
+</html>
